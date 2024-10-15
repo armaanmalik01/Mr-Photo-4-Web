@@ -1,0 +1,35 @@
+#home {
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+}
+
+#page {
+  width: 210mm;
+  height: 297mm;
+  margin: 2mm 3mm;
+  display: grid;
+  grid-template-columns: 31mm 31mm 31mm 31mm 31mm 31mm;
+  grid-template-rows: 39.1mm 39.1mm 39.1mm 39.1mm 39.1mm 39.1mm 39.1mm ;
+  row-gap: 3mm;
+  column-gap: 2mm;
+  /* border: 2px solid red; */
+}
+
+#page div {
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #000;
+}
+
+#page div img {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+@page {
+  size: A4 portrait; 
+  margin:0;
+  padding:0;
+}

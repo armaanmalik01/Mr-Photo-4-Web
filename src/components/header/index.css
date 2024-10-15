@@ -1,0 +1,112 @@
+input[type='range'] {
+  width: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  /* background-color: #F6F6F8; */
+  padding: 0rem 0.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#logo {
+  padding: 1rem 0rem;
+  text-align: center;
+  /* background-color: ; */
+  border-bottom: 2px solid #141414;
+}
+
+#image-pick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid #141414; */
+}
+
+#ctrl-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #fcfcfe; */
+  padding: 1rem 0;
+  border-top: 2px solid #141414;
+  border-bottom: 2px solid #141414;
+}
+#ctrl-btn div {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0px 1.5rem;
+  cursor: pointer;
+  border: 4px solid #000;
+  border-radius: 5px;
+}
+
+#ctrl-btn div * {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+#options {
+  /* padding: 0px .1rem; */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+#options div {
+  padding: 0 .2rem;
+}
+#options p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: .4rem .1rem;
+  border-bottom: 2px solid #141414;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: .4rem 0px;
+}
+
+#print-btn  {
+  text-align: center;
+}
+
+#print-btn button {
+  width: 120px;
+  height: 45px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #000;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.btn p {
+  font-weight: bold;
+  font-size: 16px;
+}

@@ -1,0 +1,13 @@
+@media print {
+  #menu {
+    display: none;
+  }
+  .drawer {
+    display: none;
+  }
+}
+
+@page {
+  margin:0;
+  padding:0;
+}

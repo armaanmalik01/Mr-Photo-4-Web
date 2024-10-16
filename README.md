@@ -1,8 +1,9 @@
-# React + Vite
+# Mr Photo Web 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple App thats create Passport size Photo
 
-Currently, two official plugins are available:
+![screenshot](https://raw.githubusercontent.com/armaanmalik01/Mr-Photo-4-Web/main/screenshots/1.jpg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![screenshot](https://raw.githubusercontent.com/armaanmalik01/Mr-Photo-4-Web/main/screenshots/2.jpg)
+
+![screenshot](https://raw.githubusercontent.com/armaanmalik01/Mr-Photo-4-Web/main/screenshots/3.jpg)
